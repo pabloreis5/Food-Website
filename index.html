@@ -5,7 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Food Store</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="imagens/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="imagens/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="imagens/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <title>Healthy Food</title>
 </head>
 
 <body>
@@ -239,15 +243,49 @@
             </div>
 
         </div>
-
-
     </section>
 
+    <section class="order" id="pedido">
+        <h1 class="heading"> Faça seu <span>Pedido</span></h1>
+        <div class="row">
+            <div class="image">
+                <img src="imagens/order.svg" alt="">
+            </div>
+            <form action="">
+                <div class="inputBox">
+                    <input type="text" placeholder="Nome">
+                    <input type="email" placeholder="Email">
+                </div>
+                <div class="inputBox">
+                    <input type="number" placeholder="Número: (xx) xxxxx-xxxx">
+                    <input type="text" placeholder="O que deseja?">
+                </div>
+                <div class="inputBox">
+                    <input type="number" placeholder="Quantidade">
+                    <input type="search" placeholder="Observação">
+                </div>
+                <textarea placeholder="Endereço" name="" id="" cols="30" rows="10"></textarea>
+                <input type="submit" value="Realizar pedido" class="btn">
+            </form>
+        </div>
+    </section>
 
+    <section class="footer">
+        <div class="share">
+            <a href="https://github.com/pabloreis5" class="btn">GitHub</a>
+            <a href="https://www.instagram.com/pabloreis5/" class="btn">Instagram</a>
+            <a href="https://www.linkedin.com/in/pablobatistareis/" class="btn">Linkedin</a>
+            <a href="https://wa.me/5531997767401" class="btn">WhatsApp</a>
+        </div>
+        <h1 class="credit">Desenvolvido por <span>Pablo Batista</span> | Todos direitos reservados.</h1>
+    </section>
 
+    <a href="#home" class="fas fa-angle-up" id="scroll-top"></a>
 
-
-
+    <div class="loader-container">
+        <img src="imagens/loader.gif" alt="">
+    </div>
+    
     
     <script src="js/script.js"></script>
 </body>
